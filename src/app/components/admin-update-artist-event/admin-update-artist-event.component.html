@@ -1,0 +1,73 @@
+<app-authorised-top-nav></app-authorised-top-nav>
+<div class="up" [ngStyle]="{'background-image': getUrl()}" style="height: auto; background-attachment: fixed; background-repeat: no-repeat; background-size: cover ;">
+<app-authorised-side-nav></app-authorised-side-nav>
+
+<div class="login-box">
+<form class="form-group" (ngSubmit)="update()"  novalidate>
+  
+   
+ 
+    <div class="textbox">
+    <input type="text" name="artistName" class="form-control" [(ngModel)]="admin.artistName" placeholder="artist name" required />
+</div>
+<div class="textbox">
+    <input type="text" name="artistLastName" class="form-control" [(ngModel)]="admin.artistLastName" placeholder="artist last name" required />
+</div>
+<div class="textbox">
+    <input type="text" name="artistMail" class="form-control" [(ngModel)]="admin.artistMail" placeholder="artist mail" required />
+</div>
+<div class="textbox">
+    <input type="text" name="artistPassword" class="form-control" [(ngModel)]="admin.artistPassword" placeholder="artist password" required />
+</div>
+<div class="textbox">
+    <input type="text" name="artistDomain" class="form-control" [(ngModel)]="admin.artistDomain" placeholder="artist domain" required />
+</div>
+<div class="textbox">
+    <input type="text" name="roleName" class="form-control" [(ngModel)]="admin.roleName" placeholder="role" required />
+</div>
+<div class="textbox">
+    <input type="text" name="typeEventDto" list="chose-type" class="form-control" [(ngModel)]="admin.typeEventDto" placeholder="type event" required />
+    <datalist id="chose-type">
+        <option value="Audition">
+         <option value="Concert">
+         <option value="Show"></option>
+    </datalist>
+    </div>
+    <div class="textbox">
+    <input type="text" name="descriptionDto" class="form-control" [(ngModel)]="admin.descriptionDto" placeholder="description" required />
+</div>
+<div class="textbox">
+    <input type="text" name="shared" class="form-control" [(ngModel)]="admin.shared" placeholder="shared" required />
+</div>
+<div class="textbox">
+    <input type="text" name="idOwnerDto" class="form-control" [(ngModel)]="admin.idOwnerDto" placeholder="idOwner" required />
+</div>
+<div class="textbox">
+    <input type="text" name="categoriesDto" class="form-control" [(ngModel)]="admin.categoriesDto" placeholder="Category" required />
+</div>
+<div class="textbox">
+    <input type="text" name="streetDto" class="form-control" [(ngModel)]="admin.streetDto" placeholder="street" required />
+</div>
+<div class="textbox">
+    <input type="datetime-local" name="zipCodeDto" class="form-control" [(ngModel)]="admin.zipCodeDto" placeholder="zip code" required />
+</div>
+<div class="textbox">
+    <input type="text" name="commonDto" class="form-control" [(ngModel)]="admin.commonDto" placeholder="City" required />
+</div>
+<div class="textbox">
+    <input type="text" name="phoneDto" class="form-control" [(ngModel)]="admin.phoneDto" placeholder="phone" required />
+</div>
+<div class="textbox">
+    <input type="datetime-local" name="dateDto" class="form-control" [(ngModel)]="admin.dateDto" placeholder="Date" required />
+</div>
+<div class="textbox">
+    <input type="text" name="dateOfCreatingDto" class="form-control" [(ngModel)]="admin.dateOfCreatingDto" placeholder="date of creating" required />
+    </div>
+
+    <br>  
+    <input type="button" type="submit" class="btn" value="Update">
+    
+</form>
+
+</div>
+</div>

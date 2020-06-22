@@ -1,0 +1,102 @@
+.up{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid rgba(182, 6, 6, 0.795);
+  }
+
+  .textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+  }
+
+
+  .btn{
+    width: 100%;
+    background: none;
+    border: 2px solid rgba(182, 6, 6, 0.795);
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+  }
+  .login-box{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(24, 21, 21, 0.945);
+  }
+  ::placeholder{
+    color: white;
+  }
+
+  @media only screen and (max-width: 600px){
+    .login-box{
+        
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding: 20px;
+        height: 800px;
+      
+      }
+
+  }
+  @media only screen and (max-width: 1000px){
+    .login-box{
+        
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding: 20px;
+        height: fit-content;
+          }
+  }
+  @media only screen and (max-width:  1366px){
+    .login-box{
+        
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        padding: 20px;
+        height: fit-content;
+      
+      }
+  }
+  @media only screen and (max-width:  800px){
+    .login-box{
+        
+        margin-top: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding: 20px;
+        height: fit-content;
+        
+      }
+  }
