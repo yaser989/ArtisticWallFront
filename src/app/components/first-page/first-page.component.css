@@ -2,16 +2,7 @@
     width: 50%;
 }
 
- .backdrop {
-    margin-left: auto;
-    margin-right: auto;
-    background-size: contain;
-    margin-top : 10%;
-    width: 75vw;
-    background-position: 
-    center;
-background-size: contain;
-} 
+ 
 
 .text {
     color: white;
@@ -23,7 +14,16 @@ background-size: contain;
     margin: 0;
     animation: glow 3s infinite;
 }
-
+.backdrop {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: contain;
+    margin-top : 10%;
+    width: 75vw;
+    background: url('/assets/white.jpg')
+    center;
+background-size: contain;
+} 
 @keyframes glow {
     0% {
         text-shadow: 0 0 10px white;
