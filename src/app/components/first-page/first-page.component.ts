@@ -40,6 +40,9 @@ artistForm :FormGroup;
     return "url('assets/R10962_image1.jpg')";
   }
 
+  getimg(){
+    return "url('assets/white.jpg')";
+  }
 
   loginUser() {
     this.errorMessage = "";
