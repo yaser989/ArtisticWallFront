@@ -41,7 +41,7 @@ artistForm :FormGroup;
   }
 
   getimg(){
-    return "url('assets/past-events-banner-5-3072x1200.jpg')";
+    return "url('assets/white.jpg')";
   }
 
   loginUser() {
