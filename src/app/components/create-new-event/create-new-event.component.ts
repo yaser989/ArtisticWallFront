@@ -45,7 +45,7 @@ this.eventForm = new FormGroup({
       console.log(this.event)
       console.log(this.artist.id)
     });
-    this.router.navigate(['/home']);
+    
     window.location.reload();
   }
 
