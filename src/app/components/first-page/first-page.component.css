@@ -44,11 +44,13 @@
 margin-top: 10%;
 margin-bottom: 10%;
    float: left;
+
    
 }
 
 .event img {
     width: 30%;
+    height: auto;
 }
 
 .row h5{
